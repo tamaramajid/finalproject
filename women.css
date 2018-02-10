@@ -1,0 +1,79 @@
+body{
+  margin: 0 !important;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+html.{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(wcover.jpg)  fixed no-repeat ;
+  background-size: cover;
+}
+html,body{
+  height: 100;
+}
+.box{
+  width: 1000px;
+  height: 0;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 100px;
+  text-align: center;
+  margin: 0;
+  /*margin-top: 0%; */
+  color: white;
+  font-family: 'century Gothic' , sans-serif;
+}
+
+.box h3 span{
+  text-align:center;
+  font-style:italic;
+  font-family: 'Neuton', serif;
+  font-size: 45px;
+  color: black;
+
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+
+
+}
+ #link {
+  font-size: 35px;
+  color:pink;
+}
+.font{
+  font-size:35px;
+}
+#skfont{
+  font-size: 45px;
+  color:#28a745;
+}
+#btn{
+  background-color: #20c997 !important;
+}
+p.p{
+  color: blod;
+  font: 900 96px 'Mr De Haviland', cursive;
+  text-shadow: 0px  2px 4px rgha(0 ,0 ,0, 0.6);
+  font-size: 15px;
+}

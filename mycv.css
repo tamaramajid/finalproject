@@ -1,0 +1,269 @@
+html.{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(green.jpg) no-repeat ;
+  background-size: cover;
+}
+html,body{
+  height: 100;
+}
+.container{
+width:600px;
+margin: 0 auto;
+
+}
+h1.h1{
+  color: blod;
+  font: 900 96px 'Mr De Haviland', cursive;
+  text-shadow: 0px  2px 4px rgha(0 ,0 ,0, 0.6);
+
+}
+.box{
+  width: 1000px;
+  height: 1000;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 100px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0%;
+  color: white;
+  font-family: 'century Gothic' , sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h3 span{
+  text-align:center;
+  font-style:italic;
+  font-family: 'Neuton', serif;
+  font-size: 45px;
+  color: black;
+
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box a:hover{
+  color:#b9b9b9
+
+}
+ #link {
+  font-size: 35px;
+  color:pink;
+}
+.font{
+  font-size:35px;
+}
+#skfont{
+  font-size: 45px;
+  color:#28a745;
+}
+/*
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Mr+De+Haviland" rel="stylesheet">
+    <link rel="stylesheet"  type="text/css" href="mycv.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
+ <!-- Bootstrap CSS -->
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body >
+    <nav class="navbar fixesd navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand " href="#">C.V</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+          </button>
+<div class="collapse navbar-collapse">
+
+</nav>
+<div class="container" >
+     <h1 class="h1">Tamara Majid</h1>
+
+     <div class="main wrapper clearfix">
+
+             <!-- Main Tab Container -->
+             <div  class="tab-container">
+               <!-- Tab List -->
+               <div class="row align-items-center h-100">
+                 <div class="row no-gutters">
+                 <div class="col-8">
+
+                 <div class="wrapper">
+               <div class="box">
+                <img src="cv.jpg" alt="" class="box-img">
+
+
+                       <div >  <h3>
+                    <i >   <i class="fas fa-user" aria-hidden="true"></i></i>   <span><b> About Me</b></span>  </h3>
+                   <p class="font"><i>My name is Tamara Majid  student at AL-Nahrain University.<br>I allways aspire to develop my Skills </i></p>
+                 </div>
+  <hr>
+
+                                  <div > <h3><i class="icon-heart h3"><i class="fas fa-graduation-cap"></i></i><span><b> Education</b></span></h3><br>
+                                    <p class="font">Third Stage  at information Engineering college/Network Department </p>
+                                     </div>
+
+                                <hr>               <div > <h3><i class="fas fa-laptop"></i><span><b>Work Skills</b></span></h3><br>
+                                   <p class="font">Fluent in switch configuration, configuration IPv6, static routing configuration, static ipv6 routing configuration, multilayer switching design and configuration, securing a switched environment, vlan initial deployment, Inter-vlan routing design and implementation, testing network connectivity with ping and trace-route</p>
+                                                       </div>
+ <hr>
+
+                              <div > <h3><i class="fas fa-child"></i><span><b>Volunteer Experience</b></span></h3><br>
+                               <p class="font"> I volunteered at<a id="link" href="https://www.facebook.com/iraqfue/" >Future engineering team </a> to help children orphaned and children suffer with cancer</p>
+                                   </div>
+  <hr>
+                                             </p>
+                                   <div > <h3><i class="fas fa-address-card"></i><span><b>Address and Phone Number</b></span></h3><br>
+                                      <p class="font">Baghdad <br>  New-Baghdad <br>  Phone No.:07723671570 <br> Email:<a id="link" href="tamaramajid97@gmail.com">tamaramajid97@gmail.com</a>
+                                                     </div>
+                                                     <div > <h3><i class="fas fa-certificate"></i><span><b>Certificate</b></span></h3><br>
+                                                      <p class="font"></p>
+                                                      <div class="card" style="width: 50rem;">
+                                                        <img class="card-img-top" src="php.jpg" alt="Card image cap">
+
+                                                  </div>
+                                                  <div class="card" style="width: 50rem;">
+                                                    <img class="card-img-top" src="SQL.jpg" alt="Card image cap">
+                                                </div>
+                                                <div class="card" style="width: 50rem;">
+                                                  <img class="card-img-top" src="HTML.jpg" alt="Card image cap">
+                                              </div>
+                                              <div class="card" style="width: 50rem;">
+                                                <img class="card-img-top" src="a.jpg" alt="Card image cap">
+                                              </div>
+                                              <div class="card" style="width: 50rem;">
+                                                <img class="card-img-top" src="b.jpg" alt="Card image cap">
+                                            </div>
+
+                                                          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <hr>                             <div > <h3><i class="fas fa-chart-line"></i><span><b>Skills Level</b> </span></h3><br>
+                                  <p id="skfont">Switch configuration</p><br>
+                             <div class="progress">
+                              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div> <br>
+                            <p id="skfont">router configuration</p><br>
+                         <div class="progress">
+                          <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> <br>
+                        <p id="skfont">Java</p><br>
+                     <div class="progress">
+                      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div> <br>
+                    <p id="skfont">C++</p><br>
+                 <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div> <br>
+                        <p id="skfont">Html</p><br>
+                     <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width:75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div> <br>
+                    <p id="skfont">Css</p><br>
+                 <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p id="skfont">PHP</p><br>
+             <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width:70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div> <br>
+            <p id="skfont">Java script</p><br>
+         <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 5%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+        </div> <br>
+        <p id="skfont">Mysql</p><br>
+     <div class="progress">
+      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+
+
+
+
+              </div>
+
+
+
+                <div class="logo"></div>
+
+               <hr>
+               <h3 ><i class="icon-envelope h3"></i><span> <b>Contact</b></span></h3></br>
+           <ul>
+             <li><a href="https://www.facebook.com/profile.php?id=100010229825156"><i class="fab fa-facebook-square" aria-hidden="true"></i></a><li>
+             <li><a href="https://twitter.com/tamara_majid"><i class="fab fa-twitter-square"></i></a><li>
+              <li><a href="https://www.googlepluse.com/tamaramajid"><i class="fab fa-google-plus-square"></i></a><li>
+              <li><a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a><li>
+                 <li><a href="https://www.skype.com/tamaramajid"><i class="fab fa-skype"></i></a><li>
+     </ul>
+
+       </div>
+    </div>
+</div>
+<div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+             </div>
+             </div>
+<div class="break"></div>
+</div>
+        </div>  </body>
+</html>
+*/
+<!--  <video width="320" height="240" autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>-->
